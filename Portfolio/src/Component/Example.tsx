@@ -3,7 +3,16 @@ import { motion } from "motion/react"
 
 const Example = () => {
   return (
-    <div>Example</div>
+    <>
+        <motion.div
+            className="w-24 h-24 bg-pink-500 rounded-lg"
+            animate={{
+                scale: 5,
+                transition: { duration: 2 }
+              }}
+            transition={{ duration: 6 }}
+        />
+    </>
   )
 }
 

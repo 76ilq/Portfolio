@@ -11,9 +11,12 @@
   },
   "dependencies": {
     "@material-tailwind/react": "^3.0.0-beta.24",
+    "@react-spring/parallax": "^9.7.5",
+    "@react-spring/web": "^9.7.5",
     "@splinetool/react-spline": "^4.0.0",
     "@tailwindcss/postcss": "^4.0.6",
     "@tailwindcss/vite": "^4.0.6",
+    "leni": "^2.1.1",
     "motion": "^12.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
